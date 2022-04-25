@@ -10,7 +10,7 @@ static const int user_bh            = 20;
 static const char *fonts[]          = { "monospace:size=10" };
 static const char dmenufont[]       = "monospace:size=12";
 static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#4c566a"; /* #444444 */
+static const char col_gray2[]       = "#88c0d0"; /* #444444 */
 static const char col_gray3[]       = "#bbbbbb";
 static const char col_gray4[]       = "#eeeeee";
 static const char col_cyan[]        = "#2e3440"; /* 005577 */
@@ -19,6 +19,7 @@ static const char *colors[][3]      = {
 	[SchemeNorm] = { col_gray3, col_gray1, col_cyan },
 	[SchemeSel]  = { col_gray4, col_cyan,  col_gray2  },
 };
+
 
 /* tagging */
 static const char *tags[] = { "1", "2", "3", "4", "5", "6", "7", "8", "9" };
